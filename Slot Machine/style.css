@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('img/maxresdefault.jpg') no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Prevent body scrolling */
+}
+
+.container {
+    background-color: #54005E;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-height: 90vh; /* Set maximum height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    width: 90%;
+    max-width: 500px;
+}
+
+h1, p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #1565C4;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.play-again{
+    margin-left: 185px;
+    margin-top: 20px;
+}
+
+#reels {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+#message{
+    color: white;
+}
+
+.reel {
+    margin: 0 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reel div {
+    padding: 20px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    font-size: 24px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+}
